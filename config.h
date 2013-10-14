@@ -2,10 +2,10 @@
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
 /* the name of <hash_map> */
-#define HASH_MAP_CLASS unordered_map
+#define HASH_MAP_CLASS tr1:unordered_map
 
 /* the location of <unordered_map> or <hash_map> */
-#define HASH_MAP_H <unordered_map>
+#define HASH_MAP_H <tr1/unordered_map>
 
 /* the namespace of hash_map/hash_set */
 #define HASH_NAMESPACE std
